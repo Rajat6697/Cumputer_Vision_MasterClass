@@ -1,0 +1,49 @@
+ 
+
+ 
+
+import pytesseract as pyis
+import ev2
+
+ 
+
+-v2.imread| image.jpg’)
+
+ 
+
+‘# image_to_data() takes an image and gives us a 2x2 matrix containing the
+# recognized words, their location in terms of left, top, width, height
+and conf,
+
+# Left ~is the distance from the upper-left corner of the image to the left
+# border of the image
+
+# Top -~is the distance from the upper-left comer of the image to the top
+# border of the image
+
+# Width and Height ~ Are the width and height of the character or word
+## Conf Its the model's confidence for the prediction of the character
+
+# orword.
+
+ 
+
+textdat: ne)
+
+ 
+
+pytsimage_to_datatimg, lan
+
+ 
+
+#¥image_to_string) takes an image and gives usa string containing,
+# the readable text data from the image in the string format
+
+ 
+
+textstr = pyts.image_to_stringlimg, lang='eng')
+
+ 
+
+ 
+
